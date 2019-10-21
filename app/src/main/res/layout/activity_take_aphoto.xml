@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TakeAPhotoActivity">
+
+    <ImageView
+        android:id="@+id/getPhoto"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ffeaa7"
+        android:layout_height="100dp">
+        <ImageView
+            android:onClick="btnTake"
+            android:src="@drawable/camera"
+            android:padding="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>
